@@ -1,6 +1,6 @@
-#wp-starter-angular
+#Код од лабораториски вежби по курсот Веб Програмирање 2016/17
 
-## Потребни инсталации
+## Потребни инсталации за wp-starter-angular
 
  - [node.js](https://nodejs.org/en/download/)
  - [git клиент](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
