@@ -1,0 +1,11 @@
+<div class="form-group">
+  <label>Size</label>
+  <ui-select ng-model="vm.wpModel" title="Choose group size">
+    <ui-select-match placeholder="Select group size...">
+      <span>{{$select.selected}}</span>
+    </ui-select-match>
+    <ui-select-choices repeat="item in (vm.availableSizes | filter:$select.search )" position="auto">
+      {{item}}
+    </ui-select-choices>
+  </ui-select>
+</div>

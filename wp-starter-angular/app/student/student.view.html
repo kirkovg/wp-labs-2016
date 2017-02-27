@@ -1,0 +1,126 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h4>Add or update {{vm.title}}</h4>
+  </div>
+  <form ng-submit="vm.save()" name="form">
+    <div class="panel-body">
+
+      <wp-input wp-label="Name" wp-type="text" wp-model="vm.entity.name" wp-focus="true"></wp-input>
+      <!--<div class="form-group">
+        <label>Name</label>
+        <input class="form-control"
+               type="text"
+               ng-required="true"
+               ng-model="vm.entity.name">
+      </div>-->
+
+      <wp-input wp-label="Surname" wp-type="text" wp-model="vm.entity.surname"></wp-input>
+      <!--<div class="form-group">
+        <label>Surname</label>
+        <input class="form-control"
+               type="text"
+               ng-required="true"
+               ng-model="vm.entity.surname">
+      </div>-->
+
+      <wp-input wp-label="Index" wp-type="number" wp-model="vm.entity.index"></wp-input>
+      <!--<div class="form-group">
+        <label>Index</label>
+        <input class="form-control"
+               type="number"
+               ng-required="true"
+               ng-model="vm.entity.index">
+      </div>-->
+
+      <group-select wp-model="vm.entity.labGroup"></group-select>
+      <!--<div class="form-group">
+        <label>Lab Group</label>
+        <ui-select ng-model="vm.entity.labGroup" ng-required="true">
+          <ui-select-match placeholder="Please select group">
+            <span>{{$select.selected.name}}</span>
+          </ui-select-match>
+          <ui-select-choices repeat="item in (vm.groups | filter:$select.search )" position="auto">
+            {{item.name}}
+          </ui-select-choices>
+        </ui-select>
+      </div>-->
+
+    </div>
+    <div class="panel-footer text-right">
+      <div class="panel panel-danger text-center text-danger" ng-show="vm.saveErrMsg">
+        {{vm.saveErrMsg}}
+      </div>
+      <div class="panel panel-success text-center text-success" ng-show="vm.saveOkMsg">
+        {{vm.saveOkMsg}}
+      </div>
+      <button class="btn btn-default" type="reset"
+              ng-click="vm.clear()">
+        <i class="fa fa-fw fa-refresh"></i>
+        Clear
+      </button>
+      <button class="btn btn-primary"
+              type="submit"
+              ng-disabled="form.$invalid">
+        <i class="fa fa-fw fa-save"></i>
+        Save
+      </button>
+    </div>
+
+  </form>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div ng-show="vm.entities.length > 0" style="margin-bottom: 10px;">
+      <label>Items by page</label>
+      <input ng-model="vm.itemsByPage" placeholder="items by page" type="text" class="form-control">
+      <label>Displayed pages</label>
+      <input ng-model="vm.numDisplayedPages" placeholder="number of displayed pages" type="text" class="form-control">
+    </div>
+
+    <table st-table="displayedStudents" st-safe-src="vm.entities" ng-show="vm.entities.length>0" class="table table-bordered table-striped">
+      <thead>
+      <tr>
+        <th st-sort="vm.entity.name">Name</th>
+        <th st-sort="vm.entity.surname">Surname</th>
+        <th st-sort="vm.entity.index">Index</th>
+        <th st-sort="vm.entity.labGroup">Lab Group</th>
+        <th>Actions</th>
+      </tr>
+      <tr>
+        <th colspan="1"> <!-- zosto rabotit samo so index a ne so vm.entity.index ?? -->
+          <input st-search="index" placeholder="search by index" class="form-control" type="search">
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="e in displayedStudents">
+        <td>{{e.name}}</td>
+        <td>{{e.surname}}</td>
+        <td>{{e.index}}</td>
+        <td>{{e.labGroup.name}}</td>
+        <td>
+          <button class="btn btn-xs btn-default"
+                  ng-click="vm.edit(e)">
+            Edit
+          </button>
+          <button class="btn btn-xs btn-danger"
+                  ng-click="vm.remove(e)">
+            Remove
+          </button>
+        </td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td colspan="5" class="text-center">
+          <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages="vm.numDisplayedPages"></div>
+        </td>
+      </tr>
+      </tfoot>
+    </table>
+
+    <div class="panel panel-warning text-warning" ng-hide="vm.entities.length>0">
+      There are no students!
+    </div>
+  </div>
+</div>

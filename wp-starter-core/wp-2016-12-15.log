@@ -1,0 +1,228 @@
+2016-12-15 13:53:49,982 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 13:53:50,044 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e026d3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e69770, org.springframework.test.context.support.DirtiesContextTestExecutionListener@150fbeb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1247367, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8f106e]
+2016-12-15 13:53:50,278 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 13:53:50,966 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 13:53:50 CET 2016]; root of context hierarchy
+2016-12-15 13:53:51,216 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 13:53:51,919 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 13:53:52,060 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 13:53:52,654 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 13:53:52,669 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 13:53:52,669 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 13:53:53,419 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 13:54:04,495 WARN [main] o.h.e.j.i.JdbcServicesImpl [JdbcServicesImpl.java:204] HHH000342: Could not obtain connection to query metadata : Database lock acquisition failure: lockFile: org.hsqldb.persist.LockFile@c5877771[file =C:\Users\Win 8\Downloads\wp-2016-master\wp-starter-core\db\wp.lck, exists=true, locked=false, valid=false, ] method: checkHeartbeat read: 2016-12-15 12:54:03 heartbeat - read: -266 ms.
+2016-12-15 13:54:04,557 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 13:54:04,589 INFO [main] o.h.e.j.i.LobCreatorBuilder [LobCreatorBuilder.java:88] HHH000422: Disabling contextual LOB creation as connection was null
+2016-12-15 13:54:04,823 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 13:54:05,026 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 13:54:30,490 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 13:54:30,521 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e026d3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e69770, org.springframework.test.context.support.DirtiesContextTestExecutionListener@150fbeb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1247367, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8f106e]
+2016-12-15 13:54:30,708 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 13:54:30,958 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 13:54:30 CET 2016]; root of context hierarchy
+2016-12-15 13:54:31,115 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 13:54:31,318 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 13:54:31,349 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 13:54:31,536 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 13:54:31,536 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 13:54:31,536 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 13:54:31,833 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 13:54:32,255 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 13:54:32,255 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 13:54:32,271 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 13:54:32,302 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 13:54:32,427 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 13:54:32,677 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 13:54:32,755 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 13:54:33,646 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 13:54:33,661 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 13:54:33,661 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 13:54:33,724 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 13:54:33,724 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 13:54:33,724 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 13:54:33,724 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 13:54:33,724 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 13:54:34,505 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 13:54:30 CET 2016]; root of context hierarchy
+2016-12-15 13:54:34,505 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 13:55:09,459 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 13:55:09,491 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e026d3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e69770, org.springframework.test.context.support.DirtiesContextTestExecutionListener@150fbeb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1247367, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8f106e]
+2016-12-15 13:55:09,678 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 13:55:10,053 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 13:55:10 CET 2016]; root of context hierarchy
+2016-12-15 13:55:10,209 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 13:55:10,397 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 13:55:10,428 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 13:55:10,600 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 13:55:10,600 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 13:55:10,616 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 13:55:10,881 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 13:55:11,288 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 13:55:11,288 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 13:55:11,303 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 13:55:11,319 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 13:55:11,366 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 13:55:11,522 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 13:55:11,600 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 13:55:12,131 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 13:55:12,131 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 13:55:12,147 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 13:55:12,178 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 13:55:12,178 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 13:55:12,178 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 13:55:12,178 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 13:55:12,178 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 13:55:12,381 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 13:55:10 CET 2016]; root of context hierarchy
+2016-12-15 13:55:12,381 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:00:57,771 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 14:00:57,802 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e026d3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e69770, org.springframework.test.context.support.DirtiesContextTestExecutionListener@150fbeb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1247367, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8f106e]
+2016-12-15 14:00:57,997 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 14:00:58,231 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 14:00:58 CET 2016]; root of context hierarchy
+2016-12-15 14:00:58,393 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 14:00:58,602 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:00:58,635 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 14:00:58,828 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 14:00:58,833 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 14:00:58,835 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 14:00:59,130 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:00:59,571 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 14:00:59,571 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 14:00:59,667 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 14:00:59,749 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 14:00:59,898 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 14:01:00,280 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:01:00,460 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 14:01:01,493 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 14:01:01,493 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 14:01:01,496 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 14:01:01,537 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 14:01:01,538 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 14:01:01,538 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 14:01:01,539 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 14:01:01,540 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 14:01:02,149 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@4ea235: startup date [Thu Dec 15 14:00:58 CET 2016]; root of context hierarchy
+2016-12-15 14:01:02,150 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:25:32,397 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 14:25:32,426 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1fe3806, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@171c76a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17acb34, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a242ce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4a7dd4]
+2016-12-15 14:25:32,573 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 14:25:32,760 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@b48321: startup date [Thu Dec 15 14:25:32 CET 2016]; root of context hierarchy
+2016-12-15 14:25:32,882 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 14:25:33,041 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:25:33,066 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 14:25:33,213 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 14:25:33,217 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 14:25:33,219 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 14:25:33,443 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:25:33,791 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 14:25:33,792 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 14:25:34,367 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 14:25:34,635 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 14:25:34,806 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 14:25:35,118 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:25:35,212 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 14:25:35,674 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 14:25:35,675 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 14:25:35,680 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 14:25:35,749 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 14:25:35,750 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 14:25:35,750 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 14:25:35,751 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 14:25:35,753 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 14:25:36,264 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@b48321: startup date [Thu Dec 15 14:25:32 CET 2016]; root of context hierarchy
+2016-12-15 14:25:36,265 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:34:26,560 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 14:34:26,594 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19d0818, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a3fa4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11001e5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@140ff9c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8ff24]
+2016-12-15 14:34:26,781 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 14:34:27,013 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:34:27 CET 2016]; root of context hierarchy
+2016-12-15 14:34:27,161 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 14:34:27,352 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:34:27,384 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 14:34:27,572 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 14:34:27,574 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 14:34:27,580 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 14:34:27,854 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:34:28,298 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 14:34:28,299 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 14:34:28,349 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 14:34:28,443 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 14:34:28,489 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 14:34:28,669 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:34:28,734 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 14:34:29,270 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 14:34:29,271 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 14:34:29,273 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 14:34:29,317 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 14:34:29,318 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 14:34:29,318 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 14:34:29,319 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 14:34:29,320 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 14:34:29,800 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:34:27 CET 2016]; root of context hierarchy
+2016-12-15 14:34:29,801 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:50:45,013 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 14:50:45,045 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19d0818, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a3fa4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11001e5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@140ff9c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8ff24]
+2016-12-15 14:50:45,215 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 14:50:45,444 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:50:45 CET 2016]; root of context hierarchy
+2016-12-15 14:50:45,564 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 14:50:45,745 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:50:45,776 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 14:50:45,965 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 14:50:45,967 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 14:50:45,972 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 14:50:46,247 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:50:46,660 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 14:50:46,660 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 14:50:47,246 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 14:50:47,522 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 14:50:47,601 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 14:50:47,785 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:50:47,852 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 14:50:48,403 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 14:50:48,403 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 14:50:48,406 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 14:50:48,445 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 14:50:48,445 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 14:50:48,446 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 14:50:48,446 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 14:50:48,448 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 14:50:48,921 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:50:45 CET 2016]; root of context hierarchy
+2016-12-15 14:50:48,922 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:57:01,138 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:256] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-15 14:57:01,167 INFO [main] o.s.t.c.s.DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19d0818, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a3fa4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11001e5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@140ff9c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8ff24]
+2016-12-15 14:57:01,336 INFO [main] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [spring/persistence-config.xml]
+2016-12-15 14:57:01,606 INFO [main] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:510] Refreshing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:57:01 CET 2016]; root of context hierarchy
+2016-12-15 14:57:01,743 INFO [main] o.s.c.s.PropertySourcesPlaceholderConfigurer [PropertiesLoaderSupport.java:172] Loading properties file from class path resource [spring/data-access.properties]
+2016-12-15 14:57:01,967 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:339] Building JPA container EntityManagerFactory for persistence unit 'wp'
+2016-12-15 14:57:01,994 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:46] HHH000204: Processing PersistenceUnitInfo [
+	name: wp
+	...]
+2016-12-15 14:57:02,196 INFO [main] o.h.Version [Version.java:54] HHH000412: Hibernate Core {4.3.10.Final}
+2016-12-15 14:57:02,198 INFO [main] o.h.c.Environment [Environment.java:239] HHH000206: hibernate.properties not found
+2016-12-15 14:57:02,200 INFO [main] o.h.c.Environment [Environment.java:346] HHH000021: Bytecode provider name : javassist
+2016-12-15 14:57:02,486 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:57:02,901 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose start
+2016-12-15 14:57:02,901 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose synched
+2016-12-15 14:57:03,049 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose script done
+2016-12-15 14:57:03,258 INFO [main] h.d.H.ENGINE [NativeMethodAccessorImpl.java:-2] checkpointClose end
+2016-12-15 14:57:03,342 INFO [main] o.h.d.Dialect [Dialect.java:145] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-12-15 14:57:03,546 INFO [main] o.h.h.i.a.ASTQueryTranslatorFactory [ASTQueryTranslatorFactory.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:57:03,623 INFO [main] o.h.v.i.u.Version [Version.java:27] HV000001: Hibernate Validator 5.1.3.Final
+2016-12-15 14:57:04,299 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:207] HHH000228: Running hbm2ddl schema update
+2016-12-15 14:57:04,299 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:218] HHH000102: Fetching database metadata
+2016-12-15 14:57:04,302 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:230] HHH000396: Updating schema
+2016-12-15 14:57:04,356 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:65] HHH000261: Table found: PUBLIC.PUBLIC.LAB_GROUPS
+2016-12-15 14:57:04,357 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:66] HHH000037: Columns: [numclasses, name, groupsize, id]
+2016-12-15 14:57:04,357 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:68] HHH000108: Foreign keys: []
+2016-12-15 14:57:04,358 INFO [main] o.h.t.h.TableMetadata [TableMetadata.java:69] HHH000126: Indexes: [sys_idx_sys_pk_10092_10096]
+2016-12-15 14:57:04,359 INFO [main] o.h.t.h.SchemaUpdate [SchemaUpdate.java:267] HHH000232: Schema update complete
+2016-12-15 14:57:04,949 INFO [Thread-3] o.s.c.s.GenericApplicationContext [AbstractApplicationContext.java:862] Closing org.springframework.context.support.GenericApplicationContext@18e1d9d: startup date [Thu Dec 15 14:57:01 CET 2016]; root of context hierarchy
+2016-12-15 14:57:04,950 INFO [Thread-3] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:462] Closing JPA EntityManagerFactory for persistence unit 'wp'
